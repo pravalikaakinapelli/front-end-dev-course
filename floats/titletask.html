@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>this is title</title>
+			<style type="text/css">
+				#first-h1{
+					margin-top:50px;
+					border-bottom:3px solid #184463;
+				}
+				#first-h1::after{
+					content:"THIS IS TITLE";
+					position:absolute;
+					margin-top:-50px;
+					border-bottom:3px solid #975F45;
+					
+				}
+				#second-h1{
+					margin-left:200px;
+					margin-top:120px;
+					border-bottom:3px solid #E05633;
+					
+				}
+				#second-h1::after{
+					content:"THIS IS TITLE";
+					position:absolute;
+					margin-top:-120px;
+					margin-left:-80px;
+					border-bottom:3px solid #EB6340;
+				}
+				#second-h1::before{
+					content:"THIS IS TITLE";
+					position:absolute;
+					margin-top:-70px;
+					margin-left:-200px;
+					border-bottom:3px solid #F15B35;
+				}
+				#title{
+					width:800px;
+					background-color:#D4D4D4;
+					padding:40px;
+					font-size:25px;
+				}
+			</style>
+	</head>
+	<body>
+		<div id="title">
+			<h1 id='first-h1'>THIS IS TITLE</h1>		
+			<h1 id='second-h1'>THIS IS TITLE</h1>
+		</div>
+	</body>
+</html>

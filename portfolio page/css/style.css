@@ -1,0 +1,53 @@
+.leftcol{
+	position:relative
+	color:green;
+	float:left;
+	width:25%;
+	padding:10px;
+	
+}
+
+
+.leftcol img{ 
+	width:100%;
+	height:300px;
+}
+
+.expertise-left-col{
+	position:relative;
+	float:left;
+	padding:5px;
+}
+
+.expertise-right-col{
+	position:relative;
+	left:30px;
+	top:0;
+	padding:5px;
+	
+	
+}
+
+.rightcol{
+	left:50px;
+	position:relative;
+	padding:1vh;
+}
+
+.skills{
+	list-style-type:none;
+}
+.skills hr{
+	width:50%;
+	text-align:left;
+	margin-left:0;
+}
+body{
+	border-left:25px solid gray;
+	border-right:25px solid gray;
+	border-top:15px solid gray;
+	height:100vh;
+	padding:10px;
+}
+
+

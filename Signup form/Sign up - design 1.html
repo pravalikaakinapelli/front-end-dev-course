@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Form</title>
+	<style type = "text/css">
+	.divider{
+			display:block;
+			margin-bottom : 20px;
+			padding:0.5vh;
+		}
+	.divider input{
+		width:250px;
+		padding:0.9vh;
+		border-radius:5px;
+	}
+	#form-elements{
+		padding:1vh;
+	}
+	#divider_button{
+		text-align:center;
+	}
+	#divider_button button{
+		background-color:orange;
+		color:white;
+	}
+	#gen_div{
+		margin-bottom : 20px;
+	}
+	.signup_labels{
+		position:relative;
+		color:orange;
+		display:inline-block;
+		width:30%;
+		text-align :right;
+	
+	}
+
+	.contactform{
+			background-color : #1A1C27;
+			color:white;
+			width:500px;
+			font-size:16px
+		}
+	#signup{
+		color:white;
+		background-color:orange;
+		text-align:left;
+		padding:1vh;
+		border-bottom:1px solid red;
+		font-size:18px;
+	}
+	
+
+</style>	
+</head>
+<body>
+<form class ="contactform">
+	<div id="signup">
+		<span>Sign Up!</span>
+	</div>
+	<div id="form-elements">
+		<div class ="divider">
+			<label for ="First name" class="signup_labels">First name</label>
+			<input type="text" name="first name" id="first name" placeholder="Enter firstname">
+		</div>
+		<div class = "divider">
+			<label for = "last name" class="signup_labels">Last name</label>
+			<input type = "text"  name = "last name" id="last name" placeholder="Enter lastname">
+		</div>
+		<div class = "divider">
+			<label for = "Date of Birth" class="signup_labels">Date of Birth</label>
+			<select >
+				<option>Date</option>
+			</select>
+			<select>
+				<option>Month</option>
+			</select>
+			<select>
+				<option>Year</option>
+			</select>
+			
+			
+	</div>
+		<div id="gen_div">
+			<label for="gender" class="signup_labels">Gender</label>
+				<input type="radio"  name="gender" id="male" required> male 
+				<input type="radio"   name="gender" id="female" required> female
+			</span>
+		</div>
+		<div class="divider">
+			<label for="country" class="signup_labels">country</label>
+			<select>
+				<option>India</option>
+				<option>Australia</option>
+			</select>
+			
+		</div>
+		<div class="divider">
+			<label for="email" class="signup_labels">Email</label>
+			<input type="email"  name="name" id="email" placeholder="Enter Email">
+		</div>
+		
+		<div class="divider">
+			<label for="phonenumber" class="signup_labels"> phonenumber </label>
+			<input type ="phonenumber"  name="number" id="phonenumber" placeholder="Enter phonenumber">
+		</div>
+		<div class = "divider">
+			<label for = "password" class="signup_labels">password</label>
+			<input type="password"  name="password" id="password" placeholder="Enter password">
+		</div>
+		<div class = "divider">
+			<label for = "confirm password" class="signup_labels">Confirm password</label>
+			<input type="Confirm password"  name="Confirm password" id="Confirm password" placeholder="EnterConfirm password">
+		</div>
+		<div id = "divider_button">
+			<button type="submit">submit</button>
+			<button type="reset">reset</button>
+		</div>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	
+
+
+
+
+</form>
+
+
+
+
+
+</body>
+
+
+
+
+</html>

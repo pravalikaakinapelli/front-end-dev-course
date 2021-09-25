@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>sign up form</title>
+			<style type="text/css">
+				div{
+					padding:20px;
+				}
+				input[type=text] {
+					width: 100%;
+					border-radius: 3px;
+					height:30px;
+				}
+				input[type=password] {
+					width: 100%;
+					border-radius: 3px;
+					height:30px;
+				}
+				input[type=email] {
+					width: 100%;
+					border-radius: 3px;
+					height:30px;
+				}
+				#signup-form{
+					width:20%
+				}
+				#submit-button{
+					background-color:green;
+					color:white;
+					width:100%;
+					font-size:15px;
+					padding:5px;
+
+				}
+			</style>
+	</head>
+	<body>
+		<div>
+			<h1>Sign up!</h1>
+			<p>Please fill in the below form and submit.</p>
+			<hr />
+			<form id="signup-form">
+				<div>
+					<label for="First Name">First Name</label>
+					<input type="text" name="name" id="name"  required>
+				</div>
+				<div>
+					<label for="Last Name">Last Name</label>
+					<input type="text" name="name" id="name" required>
+				</div>
+				<div>
+					<label for="Email Address">Email Address</label>
+					<input type="email" name="Email" id="Email" required>
+				</div>
+				<div>
+					<label for="Password">Password</label>
+					<input type="password" name="name" id="name" required>
+				</div>
+				<div>
+					<label for="Password Confirmation">Password Confirmation</label>
+					<input type="password" name="name" id="name" required>
+				</div>
+				<div>
+					<input type="checkbox" > By singing up you are agreed to all the <a href='#'>terms & conditions </a>
+				</div>
+				<div>
+					<button id='submit-button' >Sign Up</button>
+				</div>	
+			</form>
+		</div>
+		
+</html>

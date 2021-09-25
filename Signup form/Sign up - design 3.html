@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Html Forms</title>
+	<style type="text/css">
+		.divider{
+			margin-bottom: 10px;
+		}
+		span{
+			color: #1a2873;
+		}
+	</style>
+</head>
+<body>
+
+<form action="">
+<div class="divider">
+	<label for="name">Name <span>*</span></label>
+	<input type="text" name="name" id="name">
+</div>
+<div class="divider">
+	<label for="password">Password</label>
+	<input type="password" name="password" id="password">
+</div>
+<div class="divider">
+	<label for="email">Email</label>
+	<input type="email" name="email" id="email">
+</div>
+
+<div class="divider">
+	<label for="age">Age</label>
+<input type="number" name="age" id="age" min="1" max="80" step="5" >	
+</div>
+
+<div class="divider">
+	<label for="date">Birthday</label>
+	<input type="date" name="date" id="date" min="2019-06-10" max="2021-01-01">
+</div>
+<h2>Favorite food</h2>
+<div class="divider">
+	<label for="banana">Banana</label>
+	<input type="checkbox" name="banana" id="banana">
+</div>
+
+<div class="divider">
+	<label for="apple">Apple</label>
+	<input type="checkbox" name="apple" id="apple">
+</div>
+<h2>Gender</h2>
+<div class="divider">
+	<label for="male">Male</label>
+	<input type="radio" name="gender" id="male" required>
+</div>
+
+<div class="divider">
+	<label for="female">Female</label>
+	<input type="radio" name="gender" id="female" >
+</div>
+
+<div class="divider">
+	<label for="bio">Bio</label>
+	<textarea name="bio" id="bio"></textarea>
+</div>
+
+<div class="divider">
+	<label for="file">choose file</label>
+	<input type="file" name="file" id="file">
+</div>
+
+<div class="divider">
+	
+	<label for="phone">Phone No.</label>
+	<select>
+		<option>+91</option>
+		<option>+81</option>
+		<option>+71</option>
+		<option>+61</option>
+		<option>+56</option>
+		<option>+51</option>
+	</select>
+	<select>
+		<option>Ind</option>
+		<option>Aus</option>
+		
+	</select>
+	<input type="tel" name="Phone" id="phone" placeholder="123-456-7890" 
+	>
+</div>
+
+<div class="divider">
+	<label for="url">URL</label>
+	<input type="url" name="url" id="url">
+</div>
+
+<div class="divider">
+	<label for="color">Colors</label>
+	<input type="color" name="color" id="color">
+</div>
+
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+	
+<!-- the default size of the input box is 20-->
+</form>
+
+
+</body>
+</html>

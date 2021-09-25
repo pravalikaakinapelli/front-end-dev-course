@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Tables</title>
+	<style type="text/css">
+		#table-1{
+			border-spacing: 0px;
+		}
+		#table-1,#table-1 th,#table-1 td{
+			border-style: solid;
+			border-color: black;
+			border-collapse: collapse;
+		}
+		#table-1 th,#table-1 td{
+			padding: 5px;
+		}
+		#table-1 th{
+			text-align: left;
+		}
+		#table-1 tr:nth-child(even){
+			background-color: gray;
+			color: #fff;
+		}
+		#table-1 tr:nth-child(odd){
+			background-color: orange;
+			color: #fff;
+		}
+		#table-1 span{
+			color: #ff0000;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+
+<table id="table-1" class="table-1">
+	<caption>Students data</caption>
+	<tr>
+		<th>no.</th>
+		<th><span>Name</span></th>
+		<th >age</th>
+		<th >age</th>
+		<th >age</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Srikanth</td>
+		<td>ddd</td>
+		<td>ddd</td>
+		<td>10</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>kalyan</td>
+		<td>ddd</td>
+		<td>ddd</td>
+		<td>15</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>prasad</td>
+		<td>ddd</td>
+		<td>ddd</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>prasad</td>
+		<td>ddd</td>
+		<td>ddd</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>prasad</td>
+		<td>ddd</td>
+		<td>ddd</td>
+		<td>20</td>
+	</tr>
+</table>
+
+
+
+<table id="table-2" class="table-1">
+	<thead>
+		<tr>
+			<th>Items</th>
+			<th>Expenditure</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>stationary</td>
+			<td>2000</td>
+		</tr>
+		<tr>
+			<td>Furniture</td>
+			<td>5000</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th>Total</th>
+			<td>7000</td>
+		</tr>
+	</tfoot>
+
+
+
+	
+</table>
+</body>
+</html>
